@@ -1,0 +1,25 @@
+:root {
+  --bg: #ffffff;
+  --sf: #f7f7f8;
+  --tx: #0b0b0c;
+  --mu: #777b82;
+  --bd: #e6e7eb;
+  --ac: #3b82f6; /* blue-500 */
+  --ok: #22c55e; /* green-500 */
+  --wa: #f59e0b; /* amber-500 */
+}
+
+.dark {
+  --bg: #0b0c10;
+  --sf: #151822;
+  --tx: #f5f7fa;
+  --mu: #a3a8b3;
+  --bd: #262b36;
+  --ac: #60a5fa;
+  --ok: #34d399;
+  --wa: #fbbf24;
+}
+
+:root, .dark {
+  color-scheme: light dark;
+}
